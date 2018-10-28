@@ -50,7 +50,7 @@ y_pos_interpolated=interp1(linspace(1,length(y_pos_car_reduced),length(median_x)
 x_pos_interpolated=x_pos_interpolated(1:end-1);
 y_pos_interpolated=y_pos_interpolated(1:end-1);
 
-plot(-y_pos_car_clean,x_pos_car_clean,'bx');
+plot(-y_pos_car_clean(1:end-5),x_pos_car_clean(1:end-5),'bx');
 %commentar
 
 %%
