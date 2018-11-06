@@ -1,0 +1,12 @@
+m_p=0.846;
+m_g=1.152;
+m_c=2.26113;
+m_gesamt=m_p+m_g+m_c;
+l_geruest=0.445;
+l_car=0.385;
+l_ges=l_geruest*(m_p+m_g)/m_gesamt+l_car*(m_c)/m_gesamt;
+I_geruest=0.0624771
+%I_geruest=0.057
+t_auto=1.358;
+t_auto=1.5;
+I_Car=((t_auto/2/pi)^2)*9.81*m_gesamt*l_ges-(l_car^2)*m_c-(l_geruest^2)*(m_p+m_g)-I_geruest

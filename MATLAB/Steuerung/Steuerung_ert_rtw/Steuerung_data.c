@@ -8,9 +8,9 @@
  *
  * Code generated for Simulink model 'Steuerung'.
  *
- * Model version                  : 1.300
+ * Model version                  : 1.301
  * Simulink Coder version         : 8.14 (R2018a) 06-Feb-2018
- * C/C++ source code generated on : Thu Oct 25 19:24:36 2018
+ * C/C++ source code generated on : Tue Nov  6 10:28:21 2018
  *
  * Target selection: ert.tlc
  * Embedded hardware selection: ARM Compatible->ARM Cortex
@@ -41,7 +41,7 @@ P_Steuerung_T Steuerung_P = {
   /* Mask Parameter: SliderGain1_gain
    * Referenced by: '<S5>/Slider Gain'
    */
-  300.0,
+  -84.0,
 
   /* Mask Parameter: FindLocalMaxima_threshold
    * Referenced by: '<S3>/Find Local Maxima'
